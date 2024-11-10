@@ -4,7 +4,7 @@ import ResumeViewer from './ResumeView';
 
 const defaultResume = {
     basicInfo: {
-        name: 'John Doe',
+        name: 'John G. Doe',
         email: 'johnDoe@gmail.com',
         phone: '123-456-7890',
     },
