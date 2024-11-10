@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    margin: 30px auto;
+
+    &.basic-info {
+        .contact {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    &.education {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        .school {
+            font-weight: bold;
+        }
+    }
+
+    &.experience {        
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        .tenure {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    input {
+        margin: 10px 0;
+    }
+}
